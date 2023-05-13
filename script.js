@@ -39,11 +39,17 @@ updateContainer();
 /* seccion implementacion de productos */
 
 const hamburguesas = document.getElementById('hamburguesas');
+const extras = document.getElementById('extras');
+const acompa = document.getElementById('acompa');
+const veggies = document.getElementById('veggies');
+const cervezas = document.getElementById('cervezas');
+const bebidas = document.getElementById('bebidas');
 const shop = document.querySelector('.shop-content');
 
 function carne() {
     misHamburguesas.forEach((producto) => {
         const divProducto = document.createElement('div');
+        divProducto.innerHTML = ''
         divProducto.className = 'shop-content';
         divProducto.innerHTML = `
         <div class="products">
@@ -64,6 +70,25 @@ function carne() {
 
 hamburguesas.addEventListener('click', () => {
     carne()
+});
 
-})
+extras.addEventListener('click', () =>{
+    carne()
+});
+
+acompa.addEventListener('click', ()=>{
+    carne()
+});
+
+veggies.addEventListener('click', ()=>{
+    carne()
+});
+
+cervezas.addEventListener('click', ()=>{
+    carne()
+});
+
+bebidas.addEventListener('click', ()=>{
+    carne()
+});
 
