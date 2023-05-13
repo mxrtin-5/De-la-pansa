@@ -238,6 +238,7 @@ button:hover{
     display: grid;
     place-items: center;
     cursor: pointer;
+    transition: all .8s ease;
     transform: rotateY(calc(var(--i) * 45deg)) translateZ(300px);
 }
 
