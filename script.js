@@ -46,9 +46,10 @@ const cervezas = document.getElementById('cervezas');
 const bebidas = document.getElementById('bebidas');
 const shop = document.querySelector('.shop-content');
 
-function carne() {
+function mostrarCards(tipo) {
+    const productosFiltrados = misHamburguesas.filter(producto => producto.tipo === tipo)
     shop.innerHTML = ''
-    misHamburguesas.forEach((producto) => {
+    productosFiltrados.forEach((producto) => {
         const divProducto = document.createElement('div');
         divProducto.className = 'shop-content';
         divProducto.innerHTML = `
@@ -67,41 +68,21 @@ function carne() {
     })
 }
 
-function misExtras(){
-    shop.innerHTML = ''
-    listaExtras.forEach((product)=>{
-        const divExtras = document.createElement('div');
-        divExtras.className = 'shop-content';
-        divExtras.innerHTML = `
-        <div class="products">
-        <div class="row">
-            <img src="img/${product.id}.jpg" alt="">
-            <div class="price">
-                <h4>${product.nombre}</h4>
-                <h5>${product.descripcion}</h5>
-                <p>$${product.precio}</p>
-                <button>Compra</button>
-            </div>
-        </div>
-        `
-        shop.append(divExtras);
-    })
-}
 
 hamburguesas.addEventListener('click', () => {
-    carne()
+    mostrarCards('hamburguesa')
 });
 
 extras.addEventListener('click', () => {
-    misExtras()
+    
 });
 
 acompa.addEventListener('click', () => {
-    misExtras()
+    mostrarCards('acompañamiento')
 });
 
 veggies.addEventListener('click', () => {
-    carne()
+    mostrarCards('veggie')
 });
 
 cervezas.addEventListener('click', () => {
