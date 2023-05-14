@@ -31,10 +31,10 @@ const hamburguesa19 = new Producto ('19', 'Papas Panza', 'no se', 2180, 1, "acom
 const hamburguesa20 = new Producto ('20', 'Panzada', 'no se', 5100, 1, "acompañamiento");
 const hamburguesa21 = new Producto ('34', 'Plant Based', 'no se', 2530, 1, 'veggie');
 const hamburguesa22 = new Producto ('35', 'DLP Salad', 'no se', 2300, 1, 'veggie');
-const hamburguesa23 = new Producto ('36', 'Patagonia Amber Lager', 800, 1, 'cerveza');
-const hamburguesa24 = new Producto ('37', 'Patagonia IPA 24.7', 800, 1, 'cerveza');
-const hamburguesa25 = new Producto ('38', 'Patagonia Bohemian Pilsener', 800, 1, 'cerveza');
-const hamburguesa26 = new Producto ('39', 'Patagonia Sendero Sur', 800, 1, 'cerveza');
+const hamburguesa23 = new Producto ('36', 'Patagonia Amber Lager', 'no se', 800, 1, 'cerveza');
+const hamburguesa24 = new Producto ('37', 'Patagonia IPA 24.7', 'no se', 800, 1, 'cerveza');
+const hamburguesa25 = new Producto ('38', 'Patagonia Bohemian Pilsener', 'no se', 800, 1, 'cerveza');
+const hamburguesa26 = new Producto ('39', 'Patagonia Sendero Sur', 'no se', 800, 1, 'cerveza');
 
 
 const misHamburguesas = [hamburguesa1, hamburguesa2, hamburguesa3, hamburguesa4, hamburguesa5, hamburguesa6, hamburguesa7, hamburguesa8, hamburguesa9, hamburguesa10, hamburguesa11, hamburguesa12, hamburguesa13, hamburguesa14, hamburguesa15, hamburguesa16, hamburguesa17, hamburguesa18, hamburguesa19, hamburguesa20, hamburguesa21, hamburguesa22, hamburguesa23, hamburguesa26, hamburguesa25, hamburguesa26];
