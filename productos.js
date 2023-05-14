@@ -18,7 +18,7 @@ const hamburguesa6 = new Producto ('6', 'Pesto','no se', 2580, 1, 'hamburguesa')
 const hamburguesa7 = new Producto ('7', 'Tana','no se', 2470, 1, 'hamburguesa');
 const hamburguesa8 = new Producto ('8', 'Smashing onion','no se', 2580, 1, 'hamburguesa');
 const hamburguesa9 = new Producto ('9', 'Simple cheese', 'no se ', 2000, 1, 'hamburguesa');
-const hamburguesa10 = new Producto ('10', 'Puerca','no se ', 2640, 1);
+const hamburguesa10 = new Producto ('10', 'Puerca','no se ', 2640, 1, 'hamburguesa');
 const hamburguesa11 = new Producto ('11', 'Old school','no se ', 2470, 1, 'hamburguesa');
 const hamburguesa12 = new Producto ('12', 'Doble cheese','no se ', 2360, 1, 'hamburguesa');
 const hamburguesa13 = new Producto ('13', 'Fija','no se ', 2580, 1, 'hamburguesa');
@@ -29,9 +29,13 @@ const hamburguesa17 = new Producto ('17', 'Papas', 'no se', 2000, 1, "acompañam
 const hamburguesa18 = new Producto ('18', 'Papas con chedar', 'no se', 2400, 1, "acompañamiento");
 const hamburguesa19 = new Producto ('19', 'Papas Panza', 'no se', 2180, 1, "acompañamiento");
 const hamburguesa20 = new Producto ('20', 'Panzada', 'no se', 5100, 1, "acompañamiento");
-const hamburguesa21 = new Producto ( '34', 'Plant Based', 'no se', 2530, 1, 'veggie');
-const hamburguesa22 = new Producto ( '35', 'DLP Salad', 'no se', 2300, 1, 'veggie');
+const hamburguesa21 = new Producto ('34', 'Plant Based', 'no se', 2530, 1, 'veggie');
+const hamburguesa22 = new Producto ('35', 'DLP Salad', 'no se', 2300, 1, 'veggie');
+const hamburguesa23 = new Producto ('36', 'Patagonia Amber Lager', 800, 1, 'cerveza');
+const hamburguesa24 = new Producto ('37', 'Patagonia IPA 24.7', 800, 1, 'cerveza');
+const hamburguesa25 = new Producto ('38', 'Patagonia Bohemian Pilsener', 800, 1, 'cerveza');
+const hamburguesa26 = new Producto ('39', 'Patagonia Sendero Sur', 800, 1, 'cerveza');
 
 
-const misHamburguesas = [hamburguesa1, hamburguesa2, hamburguesa3, hamburguesa4, hamburguesa5, hamburguesa6,hamburguesa7,hamburguesa8, hamburguesa9, hamburguesa10, hamburguesa11, hamburguesa12, hamburguesa13, hamburguesa14, hamburguesa15, hamburguesa16, hamburguesa17, hamburguesa18, hamburguesa19, hamburguesa20, hamburguesa21, hamburguesa22];
+const misHamburguesas = [hamburguesa1, hamburguesa2, hamburguesa3, hamburguesa4, hamburguesa5, hamburguesa6, hamburguesa7, hamburguesa8, hamburguesa9, hamburguesa10, hamburguesa11, hamburguesa12, hamburguesa13, hamburguesa14, hamburguesa15, hamburguesa16, hamburguesa17, hamburguesa18, hamburguesa19, hamburguesa20, hamburguesa21, hamburguesa22, hamburguesa23, hamburguesa26, hamburguesa25, hamburguesa26];
 

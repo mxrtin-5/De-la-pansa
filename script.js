@@ -78,18 +78,18 @@ extras.addEventListener('click', () => {
 });
 
 acompa.addEventListener('click', () => {
-    mostrarCards('acompañamiento')
+    mostrarCards('acompañamiento');
 });
 
 veggies.addEventListener('click', () => {
-    mostrarCards('veggie')
+    mostrarCards('veggie');
 });
 
 cervezas.addEventListener('click', () => {
-    carne()
+    mostrarCards('cerveza');
 });
 
 bebidas.addEventListener('click', () => {
-    carne()
+    
 });
 
