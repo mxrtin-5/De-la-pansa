@@ -32,4 +32,4 @@ const extra4 = new Producto ('18', 'Papas con chedar', 'no se', 2400, 1);
 const extra5 = new Producto ('19', 'Papas Panza', 'no se', 2180, 1);
 const extra6 = new Producto ('20', 'Panzada', 'no se', 5100, 1);
 
-const extras = [extra1, extra2, extra3, extra4, extra5,extra6];
+const listaExtras = [extra1, extra2, extra3, extra4, extra5,extra6];

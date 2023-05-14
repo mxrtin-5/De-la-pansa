@@ -69,7 +69,7 @@ function carne() {
 
 function misExtras(){
     shop.innerHTML = ''
-    extras.forEach((product)=>{
+    listaExtras.forEach((product)=>{
         const divExtras = document.createElement('div');
         divExtras.className = 'shop-content';
         divExtras.innerHTML = `
